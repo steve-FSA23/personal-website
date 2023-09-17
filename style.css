@@ -99,6 +99,7 @@ main {
     font-weight: 500;
 }
 
+
 /* About.html */
 
 .about-main {
@@ -142,7 +143,7 @@ main {
 
 .about-main section p {
     width: 80%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-top: 3em;
     line-height: 28px;
@@ -157,7 +158,9 @@ main {
     gap: 1rem;
 }
 
+
 /* About ends  */
+
 
 /* Portfolio.html */
 
@@ -204,10 +207,11 @@ main {
     font-weight: 600;
     font-family: sans-serif;
     letter-spacing: 1px;
+    margin: 2rem 0;
 }
 
 .portfolio-section-container section p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-top: 1.2em;
     line-height: 28px;
@@ -231,6 +235,7 @@ main {
 .portfolio-section-container section button:hover {
     transform: scale(1.05);
 }
+
 
 /* Portfolio ends */
 
