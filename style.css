@@ -75,6 +75,7 @@ header h2 {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 34px;
+    height: 22vh;
 }
 
 .main-container button {
@@ -187,6 +188,7 @@ header h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .about-main section h3 {
@@ -205,6 +207,7 @@ header h2 {
 
 .about-main section p {
     width: 80%;
+    height: 22vh;
     font-size: 18px;
     text-align: center;
     margin-top: 3em;
@@ -213,12 +216,12 @@ header h2 {
     font-weight: 300;
 }
 
-.section-container {
+/* .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 4rem;
     gap: 1rem;
-}
+} */
 
 /* About ends  */
 
@@ -292,7 +295,7 @@ header h2 {
         width: 50%;
         line-height: 32px;
         font-size: 1.8em;
-        padding: 1rem 0;
+        padding: 2rem 0;
     }
     .about-main section h3 {
         font-size: 1.5em;
@@ -305,14 +308,14 @@ header h2 {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 0;
+        padding: 0rem;
         gap: 0rem;
     }
     .about-main section p {
-        width: 68%;
+        width: 70%;
         font-size: 18px;
         text-align: center;
-        margin-top: 3em;
+        margin-top: 2em;
         line-height: 26px;
     }
     header {
@@ -378,6 +381,7 @@ header h2 {
     line-height: 28px;
     letter-spacing: 1px;
     font-weight: 300;
+    height: 22vh;
 }
 
 .portfolio-section-container section button {
@@ -477,7 +481,7 @@ header h2 {
 @media only screen and (min-width: 930px) {
     .portfolio-main h1 {
         font-size: 1.8em;
-        padding: 1rem 0;
+        padding: 2rem 0;
     }
     .portfolio-main section img {
         width: 80%;
