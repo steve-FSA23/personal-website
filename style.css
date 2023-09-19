@@ -75,7 +75,6 @@ header h2 {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 34px;
-    height: 22vh;
 }
 
 .main-container button {
@@ -84,6 +83,7 @@ header h2 {
     border-radius: 5px;
     border: none;
     background-color: black;
+    margin-top: 1.2rem;
 }
 
 .main-container button a {
@@ -93,6 +93,7 @@ header h2 {
     letter-spacing: 1px;
     font-weight: 500;
 }
+
 
 /* Media Query for Index.html */
 
@@ -157,11 +158,12 @@ header h2 {
     }
     .main-container button {
         width: 30%;
-        margin-top: 1.4rem;
     }
 }
 
+
 /* Media Query Ends */
+
 
 /* About.html */
 
@@ -216,6 +218,7 @@ header h2 {
     font-weight: 300;
 }
 
+
 /* .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -223,7 +226,9 @@ header h2 {
     gap: 1rem;
 } */
 
+
 /* About ends  */
+
 
 /* About.html Query */
 
@@ -323,7 +328,9 @@ header h2 {
     }
 }
 
+
 /* About.html Query ends */
+
 
 /* Portfolio.html */
 
@@ -401,7 +408,9 @@ header h2 {
     transform: scale(1.05);
 }
 
+
 /* Portfolio ends */
+
 
 /* Media Query Portfolio.html */
 
@@ -512,6 +521,7 @@ header h2 {
         font-size: 16px;
     }
 }
+
 
 /* Query Ends */
 
