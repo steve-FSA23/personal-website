@@ -3,7 +3,7 @@ console.log("Hello World!");
 //Set the web browser to current page
 const activePage = window.location.pathname;
 // Get all the anchor tags within the navigation
-const navLinks = document.querySelectorAll(".nav-links .nav-item a");
+const navLinks = document.querySelectorAll("nav a");
 console.log(navLinks);
 
 // Function to add or remove the 'active-link' class
