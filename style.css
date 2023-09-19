@@ -5,7 +5,6 @@ body {
     height: 100%;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-color: rgb(42, 73, 165); */
 }
 
 a {
@@ -21,26 +20,32 @@ header {
     background-color: whitesmoke;
 }
 
-header .nav-links a {
-    transition: all 0.6s ease;
+
+/* Navbar  */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-header .nav-links a:hover {
-    color: #e32400;
+.nav-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    border-bottom: 2px solid #e32400;
+    /* Underline style for active link */
 }
 
 header h2 {
     letter-spacing: 2px;
     cursor: pointer;
-}
-
-.nav-links a {
-    margin-right: 0.9rem;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    letter-spacing: 1px;
-    font-weight: 400;
 }
 
 .main-container {
@@ -158,6 +163,10 @@ header h2 {
     }
     .main-container button {
         width: 30%;
+        transition: all 1s ease;
+    }
+    .main-container button:hover {
+        transform: scale(1.05);
     }
 }
 
@@ -317,7 +326,7 @@ header h2 {
         gap: 0rem;
     }
     .about-main section p {
-        width: 70%;
+        width: 78%;
         font-size: 18px;
         text-align: center;
         margin-top: 2em;
