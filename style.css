@@ -121,9 +121,6 @@ header h2 {
         width: 50%;
         margin-top: 1.4rem;
     }
-    footer a i {
-        font-size: 1rem;
-    }
     footer {
         padding: 0rem;
     }
@@ -434,14 +431,12 @@ header h2 {
     }
     .portfolio-section-container section {
         width: 100%;
-        margin-top: 2rem;
     }
     .portfolio-section-container section h3 {
         font-size: 1em;
         margin: 2rem 0;
     }
     .portfolio-section-container section p {
-        margin-top: 0.9em;
         font-size: 10px;
         line-height: 20px;
         width: 90%;
@@ -456,6 +451,7 @@ header h2 {
         width: 60%;
         padding: 0.9rem;
         font-size: 12px;
+        margin-top: 0rem;
     }
 }
 
@@ -511,7 +507,7 @@ header h2 {
     }
     .portfolio-section-container section h3 {
         font-size: 1.5em;
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
     .portfolio-section-container section p {
         width: 80%;
