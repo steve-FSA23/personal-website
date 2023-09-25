@@ -20,7 +20,6 @@ header {
     background-color: whitesmoke;
 }
 
-
 /* Navbar  */
 
 nav ul {
@@ -99,7 +98,6 @@ header h2 {
     font-weight: 500;
 }
 
-
 /* Media Query for Index.html */
 
 @media only screen and (max-width: 600px) {
@@ -167,9 +165,7 @@ header h2 {
     }
 }
 
-
 /* Media Query Ends */
-
 
 /* About.html */
 
@@ -224,7 +220,6 @@ header h2 {
     font-weight: 300;
 }
 
-
 /* .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -232,9 +227,7 @@ header h2 {
     gap: 1rem;
 } */
 
-
 /* About ends  */
-
 
 /* About.html Query */
 
@@ -335,9 +328,7 @@ header h2 {
     }
 }
 
-
 /* About.html Query ends */
-
 
 /* Portfolio.html */
 
@@ -415,9 +406,7 @@ header h2 {
     transform: scale(1.05);
 }
 
-
 /* Portfolio ends */
-
 
 /* Media Query Portfolio.html */
 
@@ -528,7 +517,6 @@ header h2 {
         font-size: 16px;
     }
 }
-
 
 /* Query Ends */
 
