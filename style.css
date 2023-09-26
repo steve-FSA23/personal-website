@@ -20,7 +20,6 @@ header {
     background-color: whitesmoke;
 }
 
-
 /* Navbar  */
 
 nav ul {
@@ -30,7 +29,7 @@ nav ul {
 
 .nav-item {
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .nav-item a {
@@ -99,7 +98,6 @@ header h2 {
     font-weight: 500;
 }
 
-
 /* Media Query for Index.html */
 
 @media only screen and (max-width: 600px) {
@@ -167,9 +165,7 @@ header h2 {
     }
 }
 
-
 /* Media Query Ends */
-
 
 /* About.html */
 
@@ -224,7 +220,6 @@ header h2 {
     font-weight: 300;
 }
 
-
 /* .section-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -232,9 +227,7 @@ header h2 {
     gap: 1rem;
 } */
 
-
 /* About ends  */
-
 
 /* About.html Query */
 
@@ -273,6 +266,9 @@ header h2 {
 }
 
 @media only screen and (min-width: 603px) {
+    .nav-item {
+        margin-right: 10px;
+    }
     .about-main h1 {
         width: 60%;
         line-height: 32px;
@@ -335,9 +331,7 @@ header h2 {
     }
 }
 
-
 /* About.html Query ends */
-
 
 /* Portfolio.html */
 
@@ -415,13 +409,14 @@ header h2 {
     transform: scale(1.05);
 }
 
-
 /* Portfolio ends */
-
 
 /* Media Query Portfolio.html */
 
 @media only screen and (max-width: 602px) {
+    .nav-item {
+        margin-right: 10px;
+    }
     .portfolio-main h1 {
         font-size: 1.2rem;
         padding: 1rem 0;
@@ -529,8 +524,94 @@ header h2 {
     }
 }
 
-
 /* Query Ends */
+
+/* Form Page Section */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    height: 100%;
+    margin: 5rem auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#message {
+    width: 100%;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 80%;
+    padding: 14px;
+    background-color: #d12300;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 2rem auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #941901;
+}
+
+/* Contact Page Media Queries Start */
+
+@media only screen and (max-width: 602px) {
+    .nav-item {
+        margin-right: 10px;
+    }
+    .container {
+        max-width: 82%;
+        height: 100%;
+    }
+    input[type="text"],
+    input[type="email"] {
+        width: 285px;
+        padding: 10px;
+    }
+    #contact-heading {
+        font-size: 1.6rem;
+    }
+    button[type="submit"] {
+        width: 70%;
+    }
+}
+
+/* Footer Section */
 
 footer {
     height: 10vh;
