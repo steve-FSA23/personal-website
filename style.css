@@ -37,8 +37,8 @@ nav ul {
 }
 
 .nav-links ul li a[aria-current="page"] {
-    text-decoration: underline red 0.15rem;
-    text-underline-offset: 0.5rem;
+    border-bottom: 0.15rem solid red;
+    padding: 3px 0;
 }
 
 /* .active {
