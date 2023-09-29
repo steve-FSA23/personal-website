@@ -1,16 +1,12 @@
 console.log("Hello World!");
 
-//Set the web browser to current page
-const activePage = window.location.pathname;
 // Get all the anchor tags within the navigation
-const navLinks = document.querySelector(".nav-links").querySelectorAll("a");
-console.log(navLinks);
+const navLinks = document.querySelectorAll(".nav-links ul li a");
 
 // Function to add or remove the 'active-link' class
-navLinks.forEach((el) => {
-    if (el.href.includes(activePage)) {
-        el.classList.add("active");
-    } else {
-        el.classList.remove("active");
+
+navLinks.forEach((link) => {
+    if (link.href === window.location.href) {
+        link.setAttribute("aria-current", "page");
     }
 });

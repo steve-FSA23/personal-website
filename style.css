@@ -36,10 +36,14 @@ nav ul {
     color: black;
 }
 
-.active {
+.nav-links ul li a[aria-current="page"] {
+    text-decoration: underline red 0.15rem;
+    text-underline-offset: 0.5rem;
+}
+
+/* .active {
     border-bottom: 2px solid #e32400;
     /* Underline style for active link */
-}
 
 header h2 {
     letter-spacing: 2px;
